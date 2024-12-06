@@ -28,10 +28,16 @@ Inicie o banco de dados e o rabbitmq:
 docker-compose up -d
 ```
 
-Inicie o servidor:
+Aguarde os serviços iniciarem...Inicie o servidor:
+```bash
+make start
+```
+ou
+
 ```bash
 go run cmd/main.go cmd/wire_gen.go
 ```
+
 
 Interaja com  a API que está na pasta /api:
 ```bash
